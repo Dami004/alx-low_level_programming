@@ -1,9 +1,9 @@
 #include<stdio.h>
 /**
- * main - Bit sizes
- *
- * return: Always 0 (succes)
- */
+* main - Entry point
+*
+* Return: Always 0 (succes)
+*/
 int main(void)
 {
 	printf("size of a char: %d byte(s)\n", sizeof(char));
