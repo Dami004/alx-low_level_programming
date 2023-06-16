@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - A alx c program that prints a line using printf function with betty
- * return - 0 (success)
+ * return: 0 (success)
  */
 int main(void)
 {
