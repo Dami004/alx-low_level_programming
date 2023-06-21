@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_sign - Determines if the input number is greater,
+ * sign - Determines if the input number is greater,
  * equal or less than zero
  *
  * @n: The  integer
  *
  * Return: 1 is greater than zero,0 is zero,-1 is than zero
  */
-int print_sign(int n)
+int sign(int n)
 {
 	if (n > 0)
 	{
