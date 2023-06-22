@@ -7,7 +7,7 @@ include "main.h"
  */
 
 
-void print_most_numbers(void)
+int print_most_numbers(void)
 {
 	char c;
 
