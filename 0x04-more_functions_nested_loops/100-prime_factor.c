@@ -1,25 +1,24 @@
 #include <stdio.h>
-#include <main.h>
 
 /**
- * main - main block
- * Description: Find and print the largest prime factor of the number
- * 612852475143
- * Return: 0
+ * main -  checks for checks for a digit (0 through 9).
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-	int c;
-	long num = 612852475143;
+	long x, y;
 
-	for (c = (int) sqrt(num); c > 2; c++)
+	x = 612852475143;
+
+	for (y = 2; x > y; y++)
 	{
-		if (num % c == 0)
+		while (x % y == 0)
 		{
-			printf("%d\n", c);
-			break;
+			x = x / y;
 		}
 	}
-
+	printf("%lu", y);
+	putchar('\n');
 	return (0);
 }
