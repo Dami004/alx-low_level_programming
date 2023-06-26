@@ -2,6 +2,7 @@
 
 /**
  * _puts - Prints a string .
+ * _putchar - function
  * @str: string to print
  * Return: void
  */
