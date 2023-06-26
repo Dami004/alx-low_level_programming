@@ -2,19 +2,13 @@
 #include <stdio.h>
 
 /**
- * main - Update the pointer value
+ * reset_to_98 - Update the pointer value to 98
+ * @n: n is returned to 98
  *
  * Return: Always 0
  */
 
-int main(void)
+void reset_to_98(int *n)
 {
-	int b = 402;
-	int n  = &b;
-
 	*n = 98;
-
-	printf("%d\n", n);
-
-	return (0);
 }
