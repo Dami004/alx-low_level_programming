@@ -10,7 +10,7 @@
 int main(void)
 {
 	int b = 402;
-	int *n = &b;
+	int n = &b;
 
 	*n = 98;
 
