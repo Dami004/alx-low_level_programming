@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	puts("Puts with recursion\n");
+	_putchar("Puts with recursion\n");
 	return (0);
 }
 
