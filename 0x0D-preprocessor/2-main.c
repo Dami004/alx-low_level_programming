@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/*
- * main - print file direction
+/**
+ * main - prints the file direction
  *
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
