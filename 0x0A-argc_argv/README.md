@@ -1,1 +1,0 @@
-arguments number and arrays
